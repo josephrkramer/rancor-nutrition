@@ -4,3 +4,9 @@
   align-items: center;
   height: 100vh;
 }
+
+.App img {
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: contain;
+}
