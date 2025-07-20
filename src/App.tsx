@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const [randomImage, setRandomImage] = useState('');
-  const images = ['/images/cupcake.png', '/images/huckleberry.png', '/images/jogan-blossom.png', '/images/plom-bloom.png'];
+  const images = ['images/cupcake.png', 'images/huckleberry.png', 'images/jogan-blossom.png', 'images/plom-bloom.png'];
 
   useEffect(() => {
     const randomIndex = Math.floor(Math.random() * images.length);
